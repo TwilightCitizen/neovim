@@ -1,0 +1,5 @@
+require("base")
+require("keymap")
+require("diagnostic")
+require("autocommand")
+require("plugin")
