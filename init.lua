@@ -1,5 +1,6 @@
 require("base")
-require("keymap")
 require("diagnostic")
 require("autocommand")
+require("user_command")
+require("keymap")
 require("plugin")

@@ -25,4 +25,6 @@ do
 	vim.keymap.set("n", "<leader>n", function() 
 		vim.wo.relativenumber = not vim.wo.relativenumber
 	end, { desc = "Toggle relative line numbers"})
+
+	vim.keymap.set('n', '<leader>bo', ':%bd|e#|bd#<CR>', { desc = 'Close all buffers except current' })
 end
